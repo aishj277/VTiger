@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Vendor page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Create Vendor page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Vendor page saved successfully]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Campaigns Page is dispayed]]>
+    </line>
+    <line>
+      <![CDATA[Create campaign page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Campaign saved successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94724" started-at="2020-05-03T18:00:45Z" finished-at="2020-05-03T18:02:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="94724" started-at="2020-05-03T18:00:45Z" finished-at="2020-05-03T18:02:20Z">
+      <class name="com.vTiger.TestScripts.CreateCampaignTest">
+        <test-method status="PASS" signature="configB()[pri:0, instance:com.vTiger.TestScripts.CreateCampaignTest@5e5792a0]" name="configB" is-config="true" duration-ms="5472" started-at="2020-05-03T18:01:28Z" finished-at="2020-05-03T18:01:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configB -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.vTiger.TestScripts.CreateCampaignTest@5e5792a0]" name="configLogin" is-config="true" duration-ms="5734" started-at="2020-05-03T18:01:33Z" finished-at="2020-05-03T18:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="createCampaign()[pri:0, instance:com.vTiger.TestScripts.CreateCampaignTest@5e5792a0]" name="createCampaign" duration-ms="34674" started-at="2020-05-03T18:01:39Z" finished-at="2020-05-03T18:02:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaigns Page is dispayed]]>
+            </line>
+            <line>
+              <![CDATA[Create campaign page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Campaign saved successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method status="PASS" signature="configLogOut()[pri:0, instance:com.vTiger.TestScripts.CreateCampaignTest@5e5792a0]" name="configLogOut" is-config="true" duration-ms="2448" started-at="2020-05-03T18:02:14Z" finished-at="2020-05-03T18:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogOut -->
+        <test-method status="PASS" signature="configClose()[pri:0, instance:com.vTiger.TestScripts.CreateCampaignTest@5e5792a0]" name="configClose" is-config="true" duration-ms="3970" started-at="2020-05-03T18:02:16Z" finished-at="2020-05-03T18:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClose -->
+      </class> <!-- com.vTiger.TestScripts.CreateCampaignTest -->
+      <class name="com.vTiger.TestScripts.CreateVendorTest">
+        <test-method status="PASS" signature="configB()[pri:0, instance:com.vTiger.TestScripts.CreateVendorTest@3ffc5af1]" name="configB" is-config="true" duration-ms="7284" started-at="2020-05-03T18:00:45Z" finished-at="2020-05-03T18:00:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configB -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.vTiger.TestScripts.CreateVendorTest@3ffc5af1]" name="configLogin" is-config="true" duration-ms="6755" started-at="2020-05-03T18:00:53Z" finished-at="2020-05-03T18:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="createVendor()[pri:0, instance:com.vTiger.TestScripts.CreateVendorTest@3ffc5af1]" name="createVendor" duration-ms="24356" started-at="2020-05-03T18:01:00Z" finished-at="2020-05-03T18:01:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Vendor page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Create Vendor page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Vendor page saved successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createVendor -->
+        <test-method status="PASS" signature="configLogOut()[pri:0, instance:com.vTiger.TestScripts.CreateVendorTest@3ffc5af1]" name="configLogOut" is-config="true" duration-ms="3060" started-at="2020-05-03T18:01:24Z" finished-at="2020-05-03T18:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogOut -->
+        <test-method status="PASS" signature="configClose()[pri:0, instance:com.vTiger.TestScripts.CreateVendorTest@3ffc5af1]" name="configClose" is-config="true" duration-ms="905" started-at="2020-05-03T18:01:27Z" finished-at="2020-05-03T18:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClose -->
+      </class> <!-- com.vTiger.TestScripts.CreateVendorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+  <test name="Testrunner1">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vTiger.TestScripts.CreateLeadTest"/>
+      <class name="com.vTiger.TestScripts.CreateInvoiceTest"/>
+      <class name="com.vTiger.TestScripts.CreateVendorTest"/>
+      <class name="com.vTiger.TestScripts.CreateSOTest"/>
+      <class name="com.vTiger.TestScripts.CreateProductTest"/>
+      <class name="com.vTiger.TestScripts.CreateQuotesTest"/>
+      <class name="com.vTiger.TestScripts.CreateCampaignTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Testrunner2">
+      <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vTiger.TestScripts.CreateLeadTest"/>
+      <class name="com.vTiger.TestScripts.CreateInvoiceTest"/>
+      <class name="com.vTiger.TestScripts.CreateVendorTest"/>
+      <class name="com.vTiger.TestScripts.CreateSOTest"/>
+      <class name="com.vTiger.TestScripts.CreateProductTest"/>
+      <class name="com.vTiger.TestScripts.CreateQuotesTest"/>
+      <class name="com.vTiger.TestScripts.CreateCampaignTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

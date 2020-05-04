@@ -24,7 +24,7 @@ public class BaseClass{
 	 public FileLib lib=new FileLib();
 	 public WebDriver driver=null;
 	 public static WebDriver staticDriver=null;
-	 //public  HomePage hp = new HomePage();
+	 public  HomePage hp = new HomePage();
 
 	// @Parameters("browser")
 	 @BeforeClass

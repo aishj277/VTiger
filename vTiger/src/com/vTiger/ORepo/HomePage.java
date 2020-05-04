@@ -27,6 +27,9 @@ public class HomePage{
 	@FindBy(name = "Vendors")
 	private WebElement Vendors;
 	
+	@FindBy(xpath = "//a[text()='Leads']")
+	private WebElement Lead;
+	
 	/*Getter methods*/
 	
 	public WebElement getMore() 
@@ -51,6 +54,11 @@ public class HomePage{
 		return Vendors;
 	}
 	
+	public WebElement getLead()
+	{
+		return Lead;
+	}
+	
 	/*Business Logic*/
 	public void LogOut()
 	{
@@ -72,7 +80,16 @@ public class HomePage{
 		return new VendorObj();
 	}
 	
-
+	public LeadObj Lead()
+	{
+		Lead.click();
+		return new LeadObj();
+	}
+	
+	
+	
+	
+	/*Homepage Constructor*/
 	public HomePage()
 	{
 		PageFactory.initElements(BaseClass.staticDriver,this);

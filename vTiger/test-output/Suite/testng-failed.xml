@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Testrunner2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vTiger.TestScripts.CreateVendorTest">
+        <methods>
+          <include name="configB"/>
+          <include name="configLogOut"/>
+          <include name="configLogin"/>
+          <include name="createVendor"/>
+          <include name="configClose"/>
+        </methods>
+      </class> <!-- com.vTiger.TestScripts.CreateVendorTest -->
+      <class name="com.vTiger.TestScripts.CreateCampaignTest">
+        <methods>
+          <include name="configB"/>
+          <include name="configLogOut"/>
+          <include name="configLogin"/>
+          <include name="configClose"/>
+          <include name="createCampaign"/>
+        </methods>
+      </class> <!-- com.vTiger.TestScripts.CreateCampaignTest -->
+      <class name="com.vTiger.TestScripts.CreateQuotesTest">
+        <methods>
+          <include name="configB"/>
+          <include name="configLogOut"/>
+          <include name="configLogin"/>
+          <include name="createQuote"/>
+          <include name="configClose"/>
+        </methods>
+      </class> <!-- com.vTiger.TestScripts.CreateQuotesTest -->
+      <class name="com.vTiger.TestScripts.CreateSOTest">
+        <methods>
+          <include name="configB"/>
+          <include name="createSO"/>
+          <include name="configLogOut"/>
+          <include name="configLogin"/>
+          <include name="configClose"/>
+        </methods>
+      </class> <!-- com.vTiger.TestScripts.CreateSOTest -->
+      <class name="com.vTiger.TestScripts.CreateInvoiceTest">
+        <methods>
+          <include name="configB"/>
+          <include name="createInvoice"/>
+          <include name="configLogOut"/>
+          <include name="configLogin"/>
+          <include name="configClose"/>
+        </methods>
+      </class> <!-- com.vTiger.TestScripts.CreateInvoiceTest -->
+    </classes>
+  </test> <!-- Testrunner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

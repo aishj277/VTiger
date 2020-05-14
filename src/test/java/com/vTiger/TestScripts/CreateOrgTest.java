@@ -18,7 +18,7 @@ import com.vTiger.Base.Utility;
 
 public class CreateOrgTest extends BaseClass {
 	Utility util=new Utility();
-	@Test(priority = 4)
+	@Test
 	public void CreateOrg()
 	{
 		int n=0;

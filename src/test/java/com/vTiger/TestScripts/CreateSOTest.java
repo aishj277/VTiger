@@ -23,7 +23,7 @@ import com.vTiger.Base.Utility;
 public class CreateSOTest extends BaseClass{
 	Utility util=new Utility();
 	
-	@Test(priority = 7)
+	@Test
 	public void createSO()
 	{
 		/*Click on sales order module*/

@@ -10,6 +10,8 @@ import com.vTiger.ORepo.HomePage;
 import com.vTiger.ORepo.SaveObj;
 import com.vTiger.ORepo.VendorObj;
 
+
+
 /**
  * 
  * @author Aishwarya
@@ -20,7 +22,7 @@ import com.vTiger.ORepo.VendorObj;
 public class CreateVendorTest extends BaseClass {
 	Utility util=new Utility();
 	
-	@Test(priority = 1)
+	@Test
 	public void createVendor()
 	{
 		/*click on vendor module*/

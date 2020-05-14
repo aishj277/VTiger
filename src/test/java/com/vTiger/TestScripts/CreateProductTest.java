@@ -21,7 +21,7 @@ import com.vTiger.Base.Utility;
 public class CreateProductTest extends BaseClass {
 	Utility util=new Utility();
 	
-	@Test(priority = 2)
+	@Test
 	public void createProduct()
 	{
 		/*Click on products module*/
@@ -44,7 +44,7 @@ public class CreateProductTest extends BaseClass {
 		String pid = ids.next();
 		String cid = ids.next();
 		driver.switchTo().window(cid);
-		driver.findElement(By.xpath("//a[text()='Samsung']")).click();
+		driver.findElement(By.xpath("//a[text()='Samsung23121']")).click();
 		driver.switchTo().window(pid);
 		
 		driver.findElement(By.name("unit_price")).sendKeys("");

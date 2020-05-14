@@ -17,7 +17,7 @@ import com.vTiger.Base.Utility;
 public class CreateInvoiceTest extends BaseClass {
 	Utility util =new Utility();
 	
-	@Test(priority = 8)
+	@Test
 	public void createInvoice()
 	{
 		/*Click on Invoice module*/
@@ -39,7 +39,7 @@ public class CreateInvoiceTest extends BaseClass {
 		String pid = ids.next();
 		String cid = ids.next();
 		driver.switchTo().window(cid);
-		driver.findElement(By.xpath("//a[text()=\"Samsung\"]")).click();
+		driver.findElement(By.xpath("//a[text()=\"Samsung23121\"]")).click();
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		driver.switchTo().window(pid);

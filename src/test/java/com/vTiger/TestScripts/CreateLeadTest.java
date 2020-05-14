@@ -18,7 +18,7 @@ import com.vTiger.ORepo.LeadObj;
 public class CreateLeadTest extends BaseClass{
 	Utility util=new Utility();
 	LeadObj l;
-	@Test(priority = 5)
+	@Test
 	public void createLead()
 	{
 		/*Click on lead module*/

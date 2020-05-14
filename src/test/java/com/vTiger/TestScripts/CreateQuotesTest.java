@@ -22,7 +22,7 @@ import com.vTiger.Base.Utility;
 public class CreateQuotesTest extends BaseClass {
 	Utility util=new Utility();
 	
-	@Test(priority = 6)
+	@Test
 	public void createQuote()
 	{
 		/*Click on Quotes module*/
@@ -47,7 +47,7 @@ public class CreateQuotesTest extends BaseClass {
 		String pid = ids.next();
 		String cid = ids.next();
 		driver.switchTo().window(cid);
-		driver.findElement(By.xpath("//a[text()=\"Samsung\"]")).click();
+		driver.findElement(By.xpath("//a[text()=\"Samsung23121\"]")).click();
 		Alert a1 = driver.switchTo().alert();
 		a1.accept();
 		driver.switchTo().window(pid);
